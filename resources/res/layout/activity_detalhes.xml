@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ScrollView android:id="@+id/scrollView1" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_margin="10dp">
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:background="#15a8ab" android:padding="0sp" android:layout_width="250dp" android:layout_height="250dp">
+                <ImageView android:id="@+id/imgDetalhe" android:background="@drawable/ic_launcher" android:layout_width="225dp" android:layout_height="225dp"/>
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:padding="0sp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="25dp" android:textStyle="bold" android:textColor="#15a8ab" android:id="@+id/txvData" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="0sp" android:text="29/10/1810"/>
+                <TextView android:textSize="22dp" android:textStyle="bold" android:textColor="#727272" android:id="@+id/txvTitulo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="0sp" android:text="Dia Nacional do Livro"/>
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:padding="0sp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <LinearLayout android:gravity="center" android:orientation="vertical" android:padding="0sp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                        <LinearLayout android:gravity="center" android:orientation="horizontal" android:padding="0sp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                            <TextView android:textSize="15dp" android:textColor="#ff000000" android:id="@+id/txvDescricao" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="0sp" android:text="Nacional do Livro é comemorado em todo país no dia 29 de outubro. A data remete a fundação da Biblioteca Nacional do Brasil em 1810, oriunda da transferência da Real Biblioteca Portuguesa. Ela está situada na cidade do Rio de Janeiro e a UNESCO a considera com uma das 10 maiores bibliotecas nacionais do mundo e a maior da América Latina."/>
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout android:gravity="center" android:orientation="horizontal" android:padding="0sp" android:layout_width="250dp" android:layout_height="wrap_content">
+                    <ImageButton android:id="@+id/btnGmail" android:background="@drawable/ico_gmail" android:layout_width="50dp" android:layout_height="50dp" android:layout_margin="3dp"/>
+                    <ImageButton android:id="@+id/btnMessenger" android:background="@drawable/ico_messenger" android:layout_width="50dp" android:layout_height="50dp" android:layout_margin="3dp"/>
+                    <ImageButton android:id="@+id/btnHangout" android:background="@drawable/ico_hangout" android:layout_width="50dp" android:layout_height="50dp" android:layout_margin="3dp"/>
+                    <ImageButton android:id="@+id/btnWhats" android:background="@drawable/ico_whats" android:layout_width="50dp" android:layout_height="50dp" android:layout_margin="3dp"/>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout android:orientation="vertical" android:id="@+id/banner" android:background="#15a8ab" android:layout_width="match_parent" android:layout_height="50dp" android:weightSum="1" android:layout_alignParentBottom="true"/>
+</LinearLayout>

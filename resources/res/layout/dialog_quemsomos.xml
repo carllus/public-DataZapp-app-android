@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:gravity="center" android:orientation="vertical" android:background="#fffae4" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <ScrollView android:id="@+id/scrollView1" android:layout_width="match_parent" android:layout_height="150dp">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+            <TextView android:id="@+id/text" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="DESENVOLVIDO POR:\10 CSilva Análise de Tecnologia da Informação\10\10  DIVISÃO:\10 DataZapp - que dia é hoje?\10\10  CONTATO:\10 c.silva@msn.com" android:layout_toRightOf="@+id/image"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
